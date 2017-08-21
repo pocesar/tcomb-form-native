@@ -18,16 +18,19 @@
   },
   "homepage": "https://github.com/gcanti/tcomb-form-native",
   "dependencies": {
-    "tcomb-validation": "^3.0.0"
+    "tcomb-validation": "^3.4.1"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "prop-types": "*"
   },
   "devDependencies": {
-    "babel": "5.8.34",
-    "babel-core": "5.8.34",
-    "eslint": "0.23.0",
-    "eslint-plugin-react": "2.5.2",
-    "react": "^15.6.1",
-    "prop-types": "^15.5.10",
-    "tape": "3.5.0"
+    "babel": "6.23.0",
+    "babel-core": "6.26.0",
+    "eslint": "4.5.0",
+    "eslint-plugin-react": "7.2.1",
+    "tape": "4.8.0"
   },
   "tags": [
     "tcomb",
